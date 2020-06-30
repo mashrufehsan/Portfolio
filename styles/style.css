@@ -52,3 +52,35 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.experience-block{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 55%;
+    background-color: white;
+    padding-right: 20px;
+}
+
+.experience-area{
+    margin-top: 150px;
+    padding-left: 30px;
+    background-image: url("../assets/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#organizer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+#gamer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
