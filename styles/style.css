@@ -8,7 +8,7 @@ h1{
 
 body{
     font-family: 'Poppins', sans-serif;
-    margin: 20px 0px;
+    margin: 0px;
 
 }
 
@@ -25,4 +25,62 @@ body{
 
 .half-width p{
     text-align: justify;
+    color: rgb(99, 99, 99);
+}
+
+#top-part{
+    background-image: url("../assets/top-banner.png");
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+section{
+    height: 500px;
+}
+
+.link-button{
+    padding: 10px 20px;
+    color: white;
+    background-image: linear-gradient(45deg, lightsalmon, orange);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#second-part{
+    padding-top: 70px;
+    background-image: url("../assets/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience-block{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 10px;
+    height: 55%;
+    background-color: white;
+    padding-right: 20px;
+}
+
+.experience-area{
+    margin-top: 150px;
+    padding-left: 30px;
+    background-image: url("../assets/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#organizer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+#gamer{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
